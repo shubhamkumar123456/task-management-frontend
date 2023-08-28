@@ -1,0 +1,87 @@
+.task{
+    width:100%;
+    margin: auto;
+  
+}
+.addTaskContainer{
+    width: max-content;
+    text-align: left;
+}
+.taskContent{
+    background-color: black;
+    margin: 10px 20px;
+    width: max-content;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    
+}
+.taskNames{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    padding-top: 1rem;
+   
+}
+.taskNamesTitle{
+width: 150px;
+text-align: center;
+background-color: white;
+color: black;
+font-weight: bolder;
+padding: 5px;
+border-radius: 10px;
+box-shadow: 0 0 5px 5px white;
+margin-top: 10px;
+}
+.taskNotes{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.taskNotes p{
+text-align: center;
+}
+.taskNotesDesc{
+    width: 200px;
+    text-align: left;
+    display: flex;
+    color: red;
+}
+.taskNotesDesc.green{
+    color: green;
+}
+.taskNotesTitle{
+    width: 150px;
+    text-align: left;
+    display: flex;
+    color: red;
+    font-weight: bold;
+  
+}
+.taskNotesTitle.green{
+    color: green;
+}
+.taskNotesTitleCross{
+    width: 50px;
+    color: red;
+}
+.taskNotesTitleCross.green{
+    color: green;
+}
+
+/* @media only screen and (max-width:850px) {
+    .taskContent{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:650px) {
+    .taskContent{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .taskContent{
+        width: 70%;
+    }
+} */

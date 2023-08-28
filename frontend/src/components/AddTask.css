@@ -1,0 +1,11 @@
+.addTask{
+    position: relative;
+}
+.addTask i{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
